@@ -1,0 +1,164 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Leyout.master.cs" Inherits="PrShip.Leyout" %>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>PrShip</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+        .footer {
+            bottom: 0;
+            width: 100%;
+            background-color: #333;
+            color: #fff;
+        }
+
+
+        .categories {
+            margin-bottom: 100px;
+        }
+
+        .info {
+            margin-bottom: 100px;
+        }
+
+        .welcome {
+            margin-top: 100px;
+            margin-bottom: 100px;
+        }
+
+        .card {
+            border-radius: 10px;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-inverse" style="border-radius: 0px; background-color: #333; color: #fff;">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">PrShip</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Catagories <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Software</a></li>
+                        <li><a href="#">Engineering</a></li>
+                        <li><a href="#">Architecture</a></li>
+                        <li><a href="#">Designer</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="/Account/LoginWithGitHub">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" />
+                    </svg>
+                    Login</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <section class="welcome">
+            <div class="jumbotron">
+                <h1>Welcome to PrShip!</h1>
+                <p>Find collaborators for your projects or join interesting projects.</p>
+                <p>
+                    <a class="btn btn-primary btn-lg" href="/Projects" role="button">Explore Projects</a>
+                </p>
+            </div>
+        </section>
+
+        <section class="categories">
+            <div class="container">
+                <h2 class="text-center" style="padding-bottom: 20px">Categories</h2>
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="card bg-info text-white">
+                            <div class="card-body">
+                                <h3 class="card-title">Software</h3>
+                                <p class="card-text">Explore software-related projects.</p>
+                                <a href="#" class="btn btn-primary">Explore</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card bg-warning text-white">
+                            <div class="card-body">
+                                <h3 class="card-title">Engineering</h3>
+                                <p class="card-text">Discover engineering projects.</p>
+                                <a href="#" class="btn btn-primary">Explore</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card bg-danger text-white">
+                            <div class="card-body">
+                                <h3 class="card-title">Architecture</h3>
+                                <p class="card-text">View architecture projects.</p>
+                                <a href="#" class="btn btn-primary">Explore</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card bg-success text-white">
+                            <div class="card-body">
+                                <h3 class="card-title">Designer</h3>
+                                <p class="card-text">Find designer-related projects.</p>
+                                <a href="#" class="btn btn-primary">Explore</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="info">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2>About Us</h2>
+                    <p>Learn more about our mission and team.</p>
+                    <p><a class="btn btn-default" href="/About" role="button">Learn more &raquo;</a></p>
+                </div>
+                <div class="col-md-4">
+                    <h2>How It Works</h2>
+                    <p>Discover how PrShip works and how you can get involved.</p>
+                    <p><a class="btn btn-default" href="/HowItWorks" role="button">Learn more &raquo;</a></p>
+                </div>
+                <div class="col-md-4">
+                    <h2>Contact Us</h2>
+                    <p>Have questions or feedback? Contact us!</p>
+                    <p><a class="btn btn-default" href="/Contact" role="button">Learn more &raquo;</a></p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h3 style="margin-bottom: 10px;">PrShip</h3>
+                    <p>Developed by <a href="https://utku-mese.github.io/" target="_blank">MuM</a></p>
+                </div>
+                <div class="col-md-4">
+                    <p style="padding-top: 30px; font-size: medium">Copyright &copy; 2024 PrShip</p>
+                </div>
+                <div class="col-md-4">
+                    <h3 style="margin-bottom: 10px;">Contact Us</h3>
+                    <p>Email: utkumese.dev@gmail.com</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+

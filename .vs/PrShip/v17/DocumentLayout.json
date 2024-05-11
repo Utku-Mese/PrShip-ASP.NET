@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Utku\\source\\repos\\PrShip\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{12843CD1-DA25-4038-933D-710F339336EC}|PrShip.csproj|c:\\users\\utku\\source\\repos\\prship\\account\\githubapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12843CD1-DA25-4038-933D-710F339336EC}|PrShip.csproj|solutionrelative:account\\githubapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12843CD1-DA25-4038-933D-710F339336EC}|PrShip.csproj|c:\\users\\utku\\source\\repos\\prship\\account\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12843CD1-DA25-4038-933D-710F339336EC}|PrShip.csproj|solutionrelative:account\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12843CD1-DA25-4038-933D-710F339336EC}|PrShip.csproj|c:\\users\\utku\\source\\repos\\prship\\leyout.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{12843CD1-DA25-4038-933D-710F339336EC}|PrShip.csproj|solutionrelative:leyout.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GitHubApiClient.cs",
+              "DocumentMoniker": "C:\\Users\\Utku\\source\\repos\\PrShip\\Account\\GitHubApiClient.cs",
+              "RelativeDocumentMoniker": "Account\\GitHubApiClient.cs",
+              "ToolTip": "C:\\Users\\Utku\\source\\repos\\PrShip\\Account\\GitHubApiClient.cs",
+              "RelativeToolTip": "Account\\GitHubApiClient.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T16:30:01.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Utku\\source\\repos\\PrShip\\Account\\AccountController.cs",
+              "RelativeDocumentMoniker": "Account\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Utku\\source\\repos\\PrShip\\Account\\AccountController.cs",
+              "RelativeToolTip": "Account\\AccountController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T16:28:02.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Leyout.Master",
+              "DocumentMoniker": "C:\\Users\\Utku\\source\\repos\\PrShip\\Leyout.Master",
+              "RelativeDocumentMoniker": "Leyout.Master",
+              "ToolTip": "C:\\Users\\Utku\\source\\repos\\PrShip\\Leyout.Master",
+              "RelativeToolTip": "Leyout.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-05-11T14:48:37.974Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
